@@ -25,4 +25,4 @@ function podeSubir(altura, acompa) {
     
 }
 
-podeSubir(1.3, false);
+podeSubir(1.5, false);
