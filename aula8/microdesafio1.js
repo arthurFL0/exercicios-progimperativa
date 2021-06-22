@@ -4,7 +4,7 @@
 function Restaurante(nome,cardapio){
     this.nome = nome;
     this.cardapio = cardapio;
-    this.entrada =  entrada =()=> 'Seja bem vindo ao restaurante '+nome+'.'+' O cardápio de hoje é '+cardapio+'.'
+    this.entrada =  function () { return 'Seja bem vindo ao restaurante '+this.nome+'.'+' O cardápio de hoje é '+this.cardapio+'.'}
 }
 
 
