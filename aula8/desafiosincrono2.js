@@ -16,7 +16,7 @@ function media (lista_notas) {
   }
 }
 
-// O método desse objeto deveria retornar a função media e  dividir pelo tamanho da array assim conseguido a média das notas.
+// O método desse objeto deveria retornar a função media e dividir pelo tamanho da array assim conseguido a média das notas.
 let aluno = {
     nome: 'Arthur',
     numero_arquivo: 22,
