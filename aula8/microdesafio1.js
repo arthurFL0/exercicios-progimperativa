@@ -3,12 +3,12 @@
 
 function Restaurante(nome,cardapio){
     this.nome = nome;
-    this.cardapio = cardapio;
+    this.cardapio = [cardapio];
     this.entrada =  function () { return 'Seja bem vindo ao restaurante '+this.nome+'.'+' O cardápio de hoje é '+this.cardapio+'.'}
 }
 
 
-let callRestaurante = new Restaurante("California",["Pizza","Massas variadas","Lasanha"])
+let callRestaurante = new Restaurante("California","Pizza","Massas variadas","Lasanha")
 
 let restaurante2 = new Restaurante("Fausto's Kitchen",["Ovo","Ovo cozido","Ovo frito","Ovo e ovo"])
 
