@@ -6,7 +6,7 @@
 // Gostaríamos de calcular a média do aluno e se o aluno foi aprovado com base na nota de aprovação que será dada. Para este exercício, vamos deixar você pensar sobre todos os métodos e propriedades que podem ser necessários para que nosso programa funcione corretamente da maneira solicitada.
 
 // A média será 7
-
+ 
 
 var total= 0
 // função para calcular a média
@@ -26,3 +26,4 @@ let aluno = {
 }
 
 console.log(aluno.media_aluno())
+
